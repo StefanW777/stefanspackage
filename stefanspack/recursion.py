@@ -29,7 +29,7 @@ def factorial(n):
 
     # If statement to ensure function does not loop infinitely.
     if n <= 1:
-        return n
+        return 1
 
     # Else statement to activate recursion to calculate factorial
     else:
